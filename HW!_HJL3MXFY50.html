@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .meekmill{
+            border-radius: 4px;
+            background-color: rgb(238, 233, 227);
+            padding: 38px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        input[type=text],select,textarea{
+            width: 100%;
+            padding: 15px;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+
+        }
+        input[type=submit] {
+            background-color: rgb(159, 219, 199);
+            color: white;
+            padding: 12px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        input[type=submit]:hover {
+            color: whitesmoke;
+            background-color: thistle;
+            border: 1px;
+
+
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="meekmill">
+            <label for="firstname">firstname</label>
+            <input  class="fname" type="text" name="firstname" id="firstname">
+            <label for="lastname">last name</label> 
+            <input type="text" name="lastname" id="lastname">
+            <label for="country">country</label>
+            <select name="country" id="country">
+                <option value="ghana">ghana</option>
+                <option value="unitedkingdom">united kingdom</option>
+                <option value="unitedstates">united states</option>
+            </select>
+            <label for="subject">subject</label>
+            <textarea name="subject" id="subject" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="submit">
+            
+
+        </div>
+    </form>
+    <div class="maincontainer"> 
+        + 
+
+    </div>
+    
+</body>
+</html>
